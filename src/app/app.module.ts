@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { RouterModule } from "@angular/router";
 import { DefaultModule } from "./view/layout/default/default.module";
 import { FullWidthModule } from "./view/layout/full-width/full-width.module";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FullWidthModule } from "./view/layout/full-width/full-width.module";
     AppRoutingModule,
     RouterModule,
     DefaultModule,
-    FullWidthModule
+    FullWidthModule,
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

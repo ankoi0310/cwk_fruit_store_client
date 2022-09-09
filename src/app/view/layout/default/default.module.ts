@@ -15,7 +15,8 @@ import { HomeComponent } from "../../page/home/home.component";
   imports: [
     CommonModule,
     RouterOutlet,
-    SharedModule
+    SharedModule,
+
   ]
 })
 export class DefaultModule { }
