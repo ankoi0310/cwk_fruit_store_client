@@ -1,16 +1,17 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { DefaultComponent } from "./default.component";
-import { RouterOutlet } from "@angular/router";
-import { SharedModule } from "../../shared/shared.module";
-import { HomeComponent } from "../../page/home/home.component";
-
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {DefaultComponent} from "./default.component";
+import {RouterOutlet} from "@angular/router";
+import {SharedModule} from "../../shared/shared.module";
+import {HomeComponent} from "../../page/home/home.component";
+import {CarouselComponent} from "../../component/carousel/carousel.component"
 
 
 @NgModule({
   declarations: [
     DefaultComponent,
-    HomeComponent
+    HomeComponent,
+    CarouselComponent,
   ],
   imports: [
     CommonModule,
@@ -19,4 +20,5 @@ import { HomeComponent } from "../../page/home/home.component";
 
   ]
 })
-export class DefaultModule { }
+export class DefaultModule {
+}

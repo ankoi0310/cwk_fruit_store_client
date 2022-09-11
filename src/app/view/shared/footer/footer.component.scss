@@ -1,0 +1,119 @@
+.footer-section {
+
+  .mouse {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -30px;
+    z-index: 99;
+
+    .mouse-icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #82ae46;
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      position: relative;
+
+      .mouse-wheel {
+        color: #fff;
+        height: 60px;
+        width: 60px;
+        margin: 0 auto;
+        background: transparent;
+        font-size: 16px;
+        display: block;
+
+        span {
+          animation: 2s ease infinite wheel-up-down
+        }
+
+      }
+
+      @keyframes wheel-up-down {
+        from {
+          margin-top: 50%;
+        }
+        to {
+          margin-top: 5px;
+        }
+      }
+
+    }
+
+  }
+
+
+  .footer-wrapper {
+    .footer-header {
+      font-size: 16px;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+
+    .footer-social {
+      margin-top: 40px;
+
+      .footer-item {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+
+        a {
+          display: block;
+          width: 50px;
+          height: 50px;
+
+          span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 26px;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.2);
+          }
+        }
+
+      }
+    }
+
+
+    .footer-list {
+      list-style: none;
+      padding-left: 0;
+
+
+      .footer-item {
+        font-size: 14px;
+
+        a {
+          display: block;
+          padding: 10px 0;
+          color: #000;
+          position: relative;
+          text-decoration: none;
+          font-size: 14px;
+
+          .icon {
+            display: table-cell;
+            vertical-align: top;
+            width: 40px;
+            font-size: 16px;
+            padding-top: 5px;
+          }
+
+          .text {
+            display: table-cell;
+            vertical-align: top;
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
