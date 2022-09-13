@@ -1,0 +1,69 @@
+.section-wrapper {
+  padding: 6em 0;
+
+  .section-services {
+    position: relative;
+
+    .service-wrapper {
+      text-align: center;
+
+
+      .service-icon {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin: 0 auto;
+        position: relative;
+
+       span {
+          font-size: 30px;
+          color: #fff;
+        }
+
+        &:hover {
+          background-color: #82ae46;
+        }
+
+
+        &::after {
+          content: "";
+          position: absolute;
+          border-radius: 50%;
+          border: 2px solid rgba(255, 255, 255, 0.19);
+          height: 70px;
+          width: 70px;
+        }
+      }
+
+      .service-body {
+
+        .service-heading {
+          font-size: 16px;
+          text-transform: uppercase;
+        }
+
+        span {
+          font-size: 14px;
+        }
+
+      }
+    }
+  }
+}
+
+
+.bg-color-1 {
+  background-color: #e4b2d6;
+}
+
+.bg-color-2 {
+  background-color: #dcc698;
+}
+
+.bg-color-3 {
+  background-color: #a2d1e1;
+}
+
+.bg-color-4 {
+  background-color: #dcd691;
+}

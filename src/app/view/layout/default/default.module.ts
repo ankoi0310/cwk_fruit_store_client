@@ -5,6 +5,7 @@ import {RouterOutlet} from "@angular/router";
 import {SharedModule} from "../../shared/shared.module";
 import {HomeComponent} from "../../page/home/home.component";
 import {CarouselComponent} from "../../component/carousel/carousel.component"
+import {ServicesComponent} from "../../component/services/services.component";
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import {CarouselComponent} from "../../component/carousel/carousel.component"
     DefaultComponent,
     HomeComponent,
     CarouselComponent,
+    ServicesComponent
   ],
   imports: [
     CommonModule,
