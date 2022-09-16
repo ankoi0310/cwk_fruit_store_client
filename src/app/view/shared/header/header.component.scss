@@ -1,50 +1,50 @@
+.header-section {
 
-.bg-primary {
-  background: #82ae46!important;
-}
-
-.header-top {
-
-  .icon {
-    font-size: 8px;
-  }
-
-  .topper {
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-size: 12px;
+  .header-top {
 
     .icon {
-      color: #fff;
+      font-size: 8px;
     }
 
-    .title {
-      width: 100%;
-      color: #fff;
+    .topper {
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 12px;
+
+      .icon {
+        color: #fff;
+      }
+
+      .title {
+        width: 100%;
+        color: #fff;
+      }
     }
   }
-}
 
-.navbar {
-  padding: 0;
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 0.9px;
+  .navbar {
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.9px;
 
-  .navbar-brand {
-    font-weight: 900;
-    color: #82ae46;
+    .navbar-brand {
+      font-weight: 900;
+      color: #82ae46;
 
-    &:hover {
+      &:hover {
+        color: #000;
+      }
+    }
+
+    .nav-link {
+      padding: 25px;
       color: #000;
     }
   }
-
-  .nav-link {
-    padding: 25px;
-    color: #000;
-  }
 }
 
-
+.bg-primary {
+  background: #82ae46 !important;
+}
 
