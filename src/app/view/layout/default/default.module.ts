@@ -6,6 +6,7 @@ import {SharedModule} from "../../shared/shared.module";
 import {HomeComponent} from "../../page/home/home.component";
 import {CarouselComponent} from "../../component/carousel/carousel.component"
 import {ServicesComponent} from "../../component/services/services.component";
+import {CategoriesComponent} from "../../component/categories/categories.component";
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import {ServicesComponent} from "../../component/services/services.component";
     DefaultComponent,
     HomeComponent,
     CarouselComponent,
-    ServicesComponent
+    ServicesComponent,
+    CategoriesComponent
   ],
   imports: [
     CommonModule,
